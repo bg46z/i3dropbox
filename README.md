@@ -6,6 +6,12 @@ This uses rmagick to change the alpha channels of the dropbox icons so that they
 I'm picky.
 
 
+You could achieve the same thing using just ImageMagick
+
+```bash
+$ cd && cd .dropbox-dist/dropbox-lnx.$(uname -m)-<version>/images/hicolor/16x16/status
+$ mogrify -alpha off -background some_color_probably_black
+```
 
 
 ### use
