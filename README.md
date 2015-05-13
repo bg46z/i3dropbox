@@ -8,9 +8,10 @@ I'm picky.
 
 You could achieve the same thing using just ImageMagick
 
-```bash
-$ cd && cd .dropbox-dist/dropbox-lnx.$(uname -m)-<version>/images/hicolor/16x16/status
-$ mogrify -alpha off -background some_color_probably_black
+```
+$ export $DBOX_VERSION=3.4.6 # you'll have to look.
+$ mogrify -alpha off -background some_color_probably_black \
+.dropbox-dist/dropbox-lnx.$(uname -m)-$DBOX_VERSION/images/hicolor/16x16/status/*
 ```
 
 
