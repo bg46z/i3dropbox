@@ -11,8 +11,7 @@ I'm picky.
 ### use
 
 ```bash
-$ git clone http://github.com/i3dropbox.git
-$ cd
+$ git clone http://github.com/i3dropbox.git && cd i3dropbox
 $ bundle install
 $ ln -s i3dropbox.rb ~/bin/i3dropbox 
 ```
