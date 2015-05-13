@@ -16,7 +16,7 @@ $ mogrify -alpha off -background some_color_probably_black
 
 ### use
 
-```bash
+```
 $ git clone http://github.com/i3dropbox.git && cd i3dropbox
 $ bundle install
 $ ln -s i3dropbox.rb ~/bin/i3dropbox 
